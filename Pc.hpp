@@ -6,7 +6,7 @@ class Pc{
 	public:
 		
 		//Constructor
-		Pc(string, string, string, string, string, float)
+		Pc(string, string, string, string, string, float);
 		
 		// Funciones Miembros
 		void setNombrepc(string Npc);
