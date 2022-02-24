@@ -9,16 +9,6 @@ Pc::Pc(string minombrepc, string mimodelo, string miprocesador, string miualmace
 	setPrecio(miprecio);
 }
 
-/*Pc::Pc(string minombrepc, string mimodelo, string miprocesador, string miualmace, string miram, float miprecio){
-	nombrepc = minombrepc;
-	modelo = mimodelo;
-	procesador = miprocesador;
-	ualmace = miualmace;
-	ram = miram;
-	precio = miprecio;
-}
-
-Pc::Pc(){}*/
 
 void Pc::setNombrepc(string Npc){
     nombrepc = Npc;
