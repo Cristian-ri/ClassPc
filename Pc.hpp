@@ -2,6 +2,7 @@
 using std::cout;
 using std::cin;
 using std::endl;
+
 #include <string>
 using std::string;
 
@@ -13,13 +14,13 @@ class Pc{
 		Pc(string, string, string, string, string, float);
 		
 		// Funciones Miembros
-		void setNombrepc(string Npc);
-		void setModelo(string mo);
-		void setProcesador(string pro);
-		void setUalmace(string ual);
+		void setNombrepc(string);
+		void setModelo(string);
+		void setProcesador(string);
+		void setUalmace(string);
 		void setRam(string ra);
-		void setTgrafica(string grafica);
-		void setPrecio(float pre);
+		void setTgrafica(string);
+		void setPrecio(float);
 		string getNombrepc();
 		string getModelo();
 		string getRam();
@@ -29,6 +30,5 @@ class Pc{
 		//Miembros de datos.
 		string nombrepc, modelo, procesador;
 		string ualmace, ram, tgrafica;
-		float precio;
-		
+		float precio;		
 };

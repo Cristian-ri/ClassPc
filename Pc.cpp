@@ -1,15 +1,25 @@
 #include "Pc.hpp"
-#include <string>
-using std::string;
 
 Pc::Pc(string minombrepc, string mimodelo, string miprocesador, string miualmace, string miram, float miprecio){
-    setNombrepc(minombrepc);
+	setNombrepc(minombrepc);
 	setModelo(mimodelo);
 	setProcesador(miprocesador);
 	setUalmace(miualmace);
 	setRam(miram);
 	setPrecio(miprecio);
 }
+
+/*Pc::Pc(string minombrepc, string mimodelo, string miprocesador, string miualmace, string miram, float miprecio){
+	nombrepc = minombrepc;
+	modelo = mimodelo;
+	procesador = miprocesador;
+	ualmace = miualmace;
+	ram = miram;
+	precio = miprecio;
+}
+
+Pc::Pc(){}*/
+
 void Pc::setNombrepc(string Npc){
     nombrepc = Npc;
 }
@@ -30,9 +40,6 @@ void Pc::setRam(string ra){
 	ram = ra;
 }
 
-void Pc::setTgrafica(string grafica){
-	tgrafica = grafica;
-}
 
 void Pc::setPrecio(float pre){
 	precio = pre;
